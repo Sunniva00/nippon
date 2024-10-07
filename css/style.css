@@ -23,7 +23,33 @@ h1{
 /*Navigationsbar*/
 
 
-/*index*/
+/*Button styling*/
+.button{
+    background-color: #EB8E5A;
+    opacity: 90%;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+    max-width: 8rem;
+    max-height: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'M PLUS 1p';
+}
+
+.button-grey{
+    background-color: lightgrey;
+    max-width: 10rem;
+}
+
+
+/*INDEX*/
+
+
 
 
 /*footer*/
