@@ -21,7 +21,35 @@ h1{
 }
 
 /*Navigationsbar*/
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
+nav li{
+    height: 50px;
+}
+
+nav a{ 
+    height: 100%;
+    padding: 0px 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size:xx-small
+}
+
+nav a:hover{
+    color: #6c6c6c;
+}
+
+nav li:first-child{ 
+    margin-right: auto;
+}
 
 /*Button styling*/
 .button{
@@ -46,10 +74,29 @@ h1{
     max-width: 10rem;
 }
 
+.button:hover{
+    background-color: #EB8E5A;
+    opacity: 100%;
+}
+.button:active {
+    background-color: #EB8E5A;
+    opacity: 90%;
+}
+
 
 /*INDEX*/
+.background-photo{
+    max-width: 100%;
+    height: 120%;
+}
 
 
+.first-photo{
+    width: 80%;
+    height: 25rem;
+    margin: -50rem 0 0 6rem;
+  
+}
 
 
 /*footer*/
