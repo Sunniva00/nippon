@@ -114,17 +114,55 @@ nav li:first-child{
     padding: 1rem;
 }
 
-.photo-circles{
-    width: 30%;
-    border-radius: 100%;
+/*3 gode grunde til at vælge Nippon - section*/
+.headline{
+    margin: 21rem 0 0 3rem;
 }
-
 .reasons-row{
     display: flex;
     flex-direction: row;
-    margin: 30rem;
+}
+.row-element{
+    margin: 3rem;
+}
+.photo-circles{
+    width: 70%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+/*Mest populære - section*/
+.popular-box{
+    background-color: #37332A;
+    color: #E6DFD5;
+    width: 83%;
+    margin: 0 0 0 3rem;
+    padding: 2rem;
+    position: absolute;
+    height: 20rem;
+}
+
+.text{
+    width: 60%;
+}
+
+.meal-photo{
+    width: 35%;
+    margin: -15rem 0 0 30rem;
+}
+
+.double-button{
+    display: flex;
+    flex-direction: row;
+    margin: -4rem 2rem 0 2rem;
+}
+
+.button-move{
+    margin-right: 5rem;
 }
 
 
-
-/*footer*/
+/*FOOTER styling*/
+.footer-background{
+    margin-top: 50rem;
+}
