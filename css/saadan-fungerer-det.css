@@ -50,7 +50,7 @@ body{
     line-height: 1.8;
 }
 
-h1{
+#first-header a {
     font-family:'Kurale';
     display: flex;
     justify-content: center;
@@ -169,3 +169,27 @@ img {
     align-items: center;
 }
 
+/*FOOTER styling*/
+.footer-background{
+    margin-top: 27rem;
+    height: 15rem;
+}
+.footer{
+    position: absolute;
+    margin: -13rem 0 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer article {
+    flex: 1; 
+    margin: 0px 10px 0 10px;
+}
+.sociale-medier{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    color: black;
+    text-decoration: none;
+}
